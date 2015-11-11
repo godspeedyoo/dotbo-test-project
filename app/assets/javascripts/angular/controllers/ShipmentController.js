@@ -1,4 +1,4 @@
-angular.module('app').controller("LocController",
+angular.module('app').controller("ShipmentController",
   ['$location', '$scope', 'Restangular', 'AuthService',
   function ($location, $scope, Restangular, AuthService){
     if(!AuthService.isLoggedIn()){

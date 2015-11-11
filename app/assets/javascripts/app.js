@@ -29,10 +29,10 @@ app.config(['$stateProvider','$urlRouterProvider',
         templateUrl: 'hello.html',
 		controller: 'AppController'
       })
-      .state('locationState',{
-        url: '/locations',
-        templateUrl: 'location.html',
-        controller : 'LocController'
+      .state('shipmentState',{
+        url: '/shipments',
+        templateUrl: 'shipment.html',
+        controller : 'ShipmentController'
       })
       //auth
       .state('loginState',{
