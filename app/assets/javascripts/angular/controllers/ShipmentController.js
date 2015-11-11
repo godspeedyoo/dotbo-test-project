@@ -6,6 +6,6 @@ angular.module('app').controller("ShipmentController",
       return $location.path('/sign_in');
     }
 
-    $scope.locations = Restangular.all('locations').getList().$object;
+    // $scope.locations = Restangular.all('locations').getList().$object;
   }
 ]);

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class V1::LocationsControllerTest < ActionDispatch::IntegrationTest
+class V1::ShipmentsControllerTest < ActionDispatch::IntegrationTest
 
   # Replace this with your real tests.
   test "the truth" do

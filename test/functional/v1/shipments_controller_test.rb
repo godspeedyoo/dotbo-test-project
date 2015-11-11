@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class V1::LocationsControllerTest < ActionController::TestCase
+class V1::ShipmentsControllerTest < ActionController::TestCase
 
   # Replace this with your real tests.
   test "the truth" do
