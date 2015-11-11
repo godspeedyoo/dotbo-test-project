@@ -1,18 +1,64 @@
 angular.module('app').controller("NewShipmentController",
-  ['$location', '$scope', 'Restangular', 'AuthService', '$http',
-  function ($location, $scope, Restangular, AuthService, $http){
-    if(!AuthService.isLoggedIn()){
-      AuthService.setPageTryingToAccess();
-      return $location.path('/sign_in');
-    }
+	['$location', '$scope', 'Restangular', 'AuthService', '$http',
+	function ($location, $scope, Restangular, AuthService, $http){
+		if(!AuthService.isLoggedIn()){
+			AuthService.setPageTryingToAccess();
+			return $location.path('/sign_in');
+		}
 
-    $http.get('/v1/shipments').then(function (response) {
-    	console.log(response);
-    }, function (response) {
-    	console.log("error");
-    });
 
-    // $scope.locations = Restangular.all('locations').getList().$object;
-    // console.log(Restangular.all('shipments'))
-  }
+		$scope.shipment = {
+			to_address: {
+
+			},
+			from_address: {
+
+			},
+			parcel: {
+
+			}
+		}
+
+		$scope.createShipment = function () {
+			$http.post('/v1/shipments', $scope.shipment).then(function (response) {
+				console.log(response);
+			}, function (response) {
+				console.log("error");
+			});
+		}
+		
+		// to use for development/testing
+		$scope.fillInForm = function () {
+			$scope.shipment = 
+				{
+					to_address: {
+						name: 'George Costanza',
+						company: 'Vandelay Industries',
+						street1: '1 E 161st St.',
+						city: 'Bronx',
+						state: 'NY',
+						zip: 10451
+					},
+					from_address: {
+						company: 'EasyPost',
+						street1: '118 2nd Street',
+						street2: '4th Floor',
+						city: 'San Francisco',
+						state: 'CA',
+						zip: 94105,
+						phone: '415-528-7555'
+					},
+					parcel: {
+						length: 9,
+						width: 6,
+						height: 2,
+						weight: 10
+					}
+				}
+		}
+
+
+		// $scope.locations = Restangular.all('locations').getList().$object;
+		// console.log(Restangular.all('shipments'))
+	}
 ]);

@@ -1,3 +1,56 @@
-<div>
-	Create a New Shipping Label
+<div class="jumbotron">
+	<div class="text-center">
+		<h1>Create a New Shipping Label</h1>
+	</div>
+</div>
+
+<button ng-click="fillInForm()">Auto Fill</button>
+
+<div class="well">
+	<h3>To Address:</h3>
+	<div>
+		<ul>
+			<li><input type="text" ng-model="shipment.to_address.name" placeholder="Name"></li>
+			<li><input type="text" ng-model="shipment.to_address.company" placeholder="Company"></li>
+			<li><input type="text" ng-model="shipment.to_address.street1" placeholder="Street 1"></li>
+			<li><input type="text" ng-model="shipment.to_address.street2" placeholder="Street 2"></li>
+			<li><input type="text" ng-model="shipment.to_address.city" placeholder="City"></li>
+			<li><input type="text" ng-model="shipment.to_address.state" placeholder="State"></li>
+			<li><input type="number" ng-model="shipment.to_address.zip" placeholder="5-Digit Zip"></li>
+		</ul>
+	</div>
+</div>
+
+<div class="well">
+	<h3>From Address:</h3>
+	<div>
+		<ul>
+			<li><input type="text" ng-model="shipment.from_address.name" placeholder="Name"></li>
+			<li><input type="text" ng-model="shipment.from_address.company" placeholder="Company"></li>
+			<li><input type="text" ng-model="shipment.from_address.street1" placeholder="Street 1"></li>
+			<li><input type="text" ng-model="shipment.from_address.street2" placeholder="Street 2"></li>
+			<li><input type="text" ng-model="shipment.from_address.city" placeholder="City"></li>
+			<li><input type="text" ng-model="shipment.from_address.state" placeholder="State"></li>
+			<li><input type="number" ng-model="shipment.from_address.zip" placeholder="5-Digit Zip"></li>
+			<li><input type="text" ng-model="shipment.from_address.phone" placeholder="Phone"></li>
+		</ul>
+	</div>
+</div>
+
+<div class="well">
+	<h3>Parcel:</h3>
+	<div>
+		<ul>
+			<li><input type="number" ng-model="shipment.parcel.length" placeholder="Length"></li>
+			<li><input type="number" ng-model="shipment.parcel.width" placeholder="Width"></li>
+			<li><input type="number" ng-model="shipment.parcel.height" placeholder="Height"></li>
+			<li><input type="number" ng-model="shipment.parcel.weight" placeholder="Weight"></li>
+		</ul>
+	</div>
+</div>
+
+<div class="well">
+	<div class="text-center">
+		<button class="btn btn-success btn-xl" type="submit" ng-click="createShipment(shipment)">Submit</button>	
+	</div>
 </div>

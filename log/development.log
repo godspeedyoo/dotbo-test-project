@@ -2936,3 +2936,2424 @@ Started GET "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:18:29 -0800
 Processing by V1::ShipmentsController#index as JSON
   [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
 Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 222ms (Views: 221.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:04 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 183ms (Views: 183.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:15 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:16 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:27:25 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 178ms (Views: 178.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:27:26 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:27:27 -0800
+Processing by V1::ShipmentsController#create as JSON
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 180ms (Views: 179.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:29:41 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:29:45 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{"name"=>"sdf"}, "from_address"=>{}, "parcel"=>{}, "shipment"=>{"to_address"=>{"name"=>"sdf"}, "from_address"=>{}, "parcel"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 178ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:30:45 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:31:05 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:31:06 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{}, "from_address"=>{}, "parcel"=>{}, "shipment"=>{"to_address"=>{}, "from_address"=>{}, "parcel"=>{}}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:32:00 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{}, "from_address"=>{}, "parcel"=>{}, "shipment"=>{"to_address"=>{}, "from_address"=>{}, "parcel"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 178ms (Views: 177.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:19 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:20 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:35:45 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 211ms (Views: 210.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:35:46 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:36:09 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 169ms (Views: 168.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:10 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 171ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:36:24 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:37:25 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 176ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:26 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 171ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:37:51 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 168ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:01 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:38:37 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 171ms (Views: 170.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:38 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 163ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:50 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 204ms (Views: 203.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:38:57 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 174ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:03 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:40:04 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:40:40 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{"name"=>"George Costanza"}, "from_address"=>{}, "parcel"=>{}, "shipment"=>{"to_address"=>{"name"=>"George Costanza"}, "from_address"=>{}, "parcel"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 184ms (Views: 183.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:43:15 -0800
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:45:02 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 168ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:45:03 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:45:08 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}, "shipment"=>{"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
