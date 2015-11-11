@@ -4,7 +4,16 @@ class V1::ShipmentsController < V1::BaseController
   end
 
   def create
-  	p params[:shipment]
-  	render json: { data: params }
+  	shipment = EasyPost::Shipment.create(params[:shipment])
+  	rates = {}
+  	shipment.rates.each do |rate|
+  		rates[rate.id] = {
+  			carrier: rate.carrier,
+  			service: rate.service,
+  			rate: rate.rate
+  		}
+  	end
+  	p rates
+  	render json: { data: rates }
   end
 end

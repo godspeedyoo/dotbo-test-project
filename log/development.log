@@ -5357,3 +5357,253 @@ Processing by V1::ShipmentsController#create as JSON
   Parameters: {"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}, "shipment"=>{"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}}}
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
 Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:47:32 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:47:36 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}, "shipment"=>{"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1892ms (Views: 1.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/shipments/new" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+Processing by AngularTemplatesController#index as HTML
+  Parameters: {"path"=>"shipments/new"}
+  Rendered angular_templates/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/underscore/underscore.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/angular.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular-cookies/angular-cookies.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/restangular/dist/restangular.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular-rails-templates.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/hello.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/new-shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/registrations/edit.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/registrations/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/sessions/new.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/shipment.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/controllers/AppController.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/controllers/LoginController.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/controllers/NewShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/controllers/ShipmentController.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/controllers/SignUpController.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/angular/services/AuthServices.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-11 15:50:39 -0800
+
+
+Started POST "/v1/shipments" for 127.0.0.1 at 2015-11-11 15:50:45 -0800
+Processing by V1::ShipmentsController#create as JSON
+  Parameters: {"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}, "shipment"=>{"to_address"=>{"name"=>"George Costanza", "company"=>"Vandelay Industries", "street1"=>"1 E 161st St.", "city"=>"Bronx", "state"=>"NY", "zip"=>10451}, "from_address"=>{"company"=>"EasyPost", "street1"=>"118 2nd Street", "street2"=>"4th Floor", "city"=>"San Francisco", "state"=>"CA", "zip"=>94105, "phone"=>"415-528-7555"}, "parcel"=>{"length"=>9, "width"=>6, "height"=>2, "weight"=>10}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 1310ms (Views: 0.7ms | ActiveRecord: 0.5ms)
