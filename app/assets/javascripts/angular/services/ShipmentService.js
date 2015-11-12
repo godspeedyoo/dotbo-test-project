@@ -12,7 +12,7 @@ angular.module('app')
   return {
     create: function (shipment) {
       $http.post('/v1/shipments', shipment).then(function (response) {
-        labelUrl = response.data.data.postage_label.label_url
+        labelUrl = response.data.data.postage_label.label_url;
         $state.go('viewLabelState');
         // Intended to have user select rates after creating the shipment object
         // rates = response.data.rates;
