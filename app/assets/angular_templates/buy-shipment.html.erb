@@ -1,0 +1,21 @@
+<h1>Choose from these rates:</h1>
+<div>
+<form name="myForm">
+    <p>Choose a Rate</p>
+    <ul>
+        <li ng-repeat="rate in rates">
+            <label>
+                <input type="radio" ng-model="selection.selectedRate" name="id" value="{{rate.id}}" required />
+                <div>
+                	{{rate.carrier}} {{rate.service}} | {{rate.rate | currency}}
+                </div>
+            </label>
+        </li>
+    </ul>
+    <button class="btn btn-success" ng-disabled="myForm.$invalid" ng-click="buyShipment(selection.selectedRate)">Submit</button>
+</form>
+
+  <div>
+  	Debugging: You have selected rate id: {{selection.selectedRate}}
+  </div>
+</div>

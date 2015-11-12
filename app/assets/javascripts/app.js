@@ -39,6 +39,11 @@ app.config(['$stateProvider','$urlRouterProvider',
         templateUrl: 'new-shipment.html',
         controller : 'NewShipmentController'
       })
+      .state('buyShipmentState',{
+        url: '/shipments/buy',
+        templateUrl: 'buy-shipment.html',
+        controller : 'BuyShipmentController'
+      })
       //auth
       .state('loginState',{
         url: '/sign_in',

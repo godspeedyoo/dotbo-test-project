@@ -1,30 +1,15 @@
 angular.module('app').controller("NewShipmentController",
-	['$location', '$scope', 'Restangular', 'AuthService', '$http',
-	function ($location, $scope, Restangular, AuthService, $http){
+	['$location', '$scope', 'ShipmentService', 'AuthService', '$http', '$state',
+	function ($location, $scope, ShipmentService, AuthService, $http, $state){
 		if(!AuthService.isLoggedIn()){
 			AuthService.setPageTryingToAccess();
 			return $location.path('/sign_in');
 		}
 
-
-		$scope.shipment = {
-			to_address: {
-
-			},
-			from_address: {
-
-			},
-			parcel: {
-
-			}
-		}
-
-		$scope.createShipment = function () {
-			$http.post('/v1/shipments', $scope.shipment).then(function (response) {
-				console.log(response);
-			}, function (response) {
-				console.log("error");
-			});
+		$scope.shipment = { to_address: {}, from_address: {}, parcel: {} }
+		
+		$scope.createShipment = function (shipment) {
+			ShipmentService.create(shipment);
 		}
 		
 		// to use for development/testing

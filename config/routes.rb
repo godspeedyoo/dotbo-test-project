@@ -3,12 +3,8 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => {:registrations => "registrations", :sessions => "sessions"}
 
   api_version(:module => "V1", :path => {:value => "v1"}, :defaults => {:format => "json"}) do
-    # devise_scope :user do
-    #   resource :session, :only => [:create, :destroy]
-    #   resource :registration, :only => [:create]
-    # end
-    
     resources :shipments
+    post 'shipments/buy', to: 'shipments#buy'
   end
   
   root "angular_templates#index"
