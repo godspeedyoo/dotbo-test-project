@@ -7,20 +7,26 @@ angular.module('app')
 
 
   var rates;
+  var labelUrl;
 
   return {
     create: function (shipment) {
       $http.post('/v1/shipments', shipment).then(function (response) {
-        rates = response.data.rates;
-        console.log(rates);
-        $state.go('buyShipmentState');
+        labelUrl = response.data.data.postage_label.label_url
+        $state.go('viewLabelState');
+        // Intended to have user select rates after creating the shipment object
+        // rates = response.data.rates;
+        // console.log(rates);
+        // $state.go('buyShipmentState'); 
       }, function (response) {
         console.log("error");
       });
     },
     getRates: function () {
-      console.log(rates);
       return rates;
+    },
+    getLabelUrl: function () {
+      return labelUrl;
     },
     buyShipment: function (rateId) {
       $http.post('/v1/shipments/buy', {id: rateId}).then(function (response) {
