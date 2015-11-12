@@ -2,7 +2,6 @@
 *.rbc
 /.config
 /config/database.yml
-/config/secrets.yml
 /coverage/
 /InstalledFiles
 /pkg/
